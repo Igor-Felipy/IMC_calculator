@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Calculo de IMC</title>
-</head>
-<body>
-    <div class="form">
-        <form action="/" method="post">
-            <p><input type="number" name="peso" step="0.1" id="peso" placeholder="peso" required></p>
-            <p><input type="number" name="altura" step="0.1" id="altura" placeholder="altura" required></p>
-            <p><button type="submit">Calcular</button></p>
-        </form>
-    </div>
-</body>
+    <head>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculo de IMC</title>
+
+    </head>
+    <body>
+        
+        <div class="titulo">
+            <h1>Calcule seu IMC</h1>
+        </div>
+
+        <div class="agrupar">            
+            <form action="/" method="post">
+    
+                <div class="form-group">
+                    <label for="">Peso: </label>
+                    <input type="number" class="form-control" name="peso" step="0.1" id="peso" placeholder="Seu peso" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="">Altura: </label>
+                    <input type="number" class="form-control" name="altura" step="0.1" id="altura" placeholder="Sua altura" required>
+                </div>
+    
+                <button class="btn btn-primary" type="submit">Calcular</button>
+            
+            </form>
+        </div>        
+
+    </body>
 </html>

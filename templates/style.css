@@ -1,0 +1,16 @@
+.agrupar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7.5% 15px;
+
+}
+.agrupar a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>resultado</title>
-</head>
-<body>
-    <h1>Seu IMC é {{r}}</h1>
-    <a href="/">calcular novamente</a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Resultado</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="titulo" class="display-4">Seu IMC é: {{r}}</h1>
+        
+        <div class="agrupar">
+            <button class="btn btn-primary btn-lg" ><a href="/">calcular novamente </a></button>
+        </div>
+    </body>
 </html>
