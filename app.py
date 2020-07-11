@@ -8,7 +8,7 @@ def results():
     if request.method == 'POST':
         a = float(request.form['altura'])
         p = float(request.form['peso'])
-        r = p/(a*a)
+        r = round( p/(a*a), 2)
         return render_template('result.html', r=r)
     return render_template('index.html')
 
